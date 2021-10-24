@@ -13,8 +13,8 @@ let package = Package(
       targets: ["Minisign"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-crypto", from: "1.1.6"),
-    .package(url: "https://github.com/slarew/swift-crypto-blake2", from: "1.0.0")
+    .package(url: "https://github.com/apple/swift-crypto", from: "2.0.0"),
+    .package(url: "https://github.com/slarew/swift-crypto-blake2", from: "2.0.0")
   ],
   targets: [
     .target(
