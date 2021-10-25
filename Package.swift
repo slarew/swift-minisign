@@ -5,7 +5,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "Minisign",
+  name: "swift-minisign",
   platforms: [.macOS(.v10_15)],
   products: [
     .library(
